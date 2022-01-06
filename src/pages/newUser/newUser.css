@@ -1,0 +1,79 @@
+.newUser {
+    flex:4;
+    padding: 20px;
+}
+
+.newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    box-shadow: 2px 9px 23px 2px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 2px 9px 23px 2px rgba(0,0,0,0.36);
+    -moz-box-shadow: 2px 9px 23px 2px rgba(0,0,0,0.36);
+    
+    
+}
+
+.newUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+.newUserForm>label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:rgb(97, 97, 97)
+}
+
+.newUserItem>label{
+    margin-bottom: 15px;
+}
+
+.newUserItem>input {
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.userItemAvatar>label {
+    margin-bottom: 15px;
+}
+.userItemAvatar {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.newUserGender > input {
+    margin-right: 6px;
+    
+}
+.newUserGender > label {
+    margin-right: 6px;
+    font-size: 18px;
+    color:#555;
+}
+
+.newUserSelect{
+    height: 40px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.newUserButton{
+    width: 310px;
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color:#fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 55px;
+    
+}
